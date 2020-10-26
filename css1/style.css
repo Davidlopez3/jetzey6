@@ -1,0 +1,107 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Satisfy');
+
+body {
+	font-size:16px;
+	font-family: 'Roboto Slab', serif;
+	color: #000;
+	margin: 0;
+	padding: 0;
+	background-color: #90cde3;
+}
+
+article {
+	width: 90%;
+	margin: 40px auto 0 auto;
+	padding: 20px;
+	position: relative;
+}
+h1{width:70%}
+.container {
+  width: 400px;
+  height: 400px;
+margin:0 auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  width: 180px;
+  height: 60px;
+margin:0 auto;
+}
+
+.btn {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #91C9FF;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+svg {
+ margin:0 auto;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.btn:hover {
+  transition: 1s ease-in-out;
+  background: #4F95DA;
+}
+
+.btn:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.btn span {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+  margin:0 auto;
+}
+
+h1 {
+	font-size: 3.85em;
+	margin: 0 0 .5em 0;
+	font-family:  'Comic Sans MS', cursive;
+	color:orange;
+}
+
+figure {
+	width: 100%;
+	margin: 0;
+	padding: 350px 0 0 0;
+	position: absolute;
+	left: 0;
+	bottom: 0px;
+	overflow: hidden;
+  background: url(http://res.cloudinary.com/duqzvuawc/image/upload/c_scale,h_424/v1508813537/clouds_tile_efhbuh.jpg);
+  animation: clouds_animation 75s linear infinite;
+}
+
+
+@keyframes clouds_animation {
+  
+  0%  {background-position: 0 0;}
+  100%  {background-position: -2122px 0;}
+}
+
+
+
+
+
+
+

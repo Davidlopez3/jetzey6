@@ -1,0 +1,291 @@
+body{position: relative!important;
+ line-height: 1.7;
+  color: #000;
+  background-color:#F6E9E3;
+  font-weight: 400;
+  font-size: 1rem;
+   width:1285px;
+   font-style:Helvetica;
+}
+
+body:before {
+content: '';
+position: absolute;
+z-index: 2;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+pointer-events: none;
+background-image: url(https://divi.space/wp-content/uploads/2019/02/hearts.png);
+animation: falling-hearts 18s linear infinite;
+}
+@keyframes falling-hearts {
+0% {background-position: 0% 30%;}
+}
+
+@-moz-keyframes falling-hearts {
+0% {background-position: 0% 30%;}
+}
+
+@-webkit-keyframes falling-hearts {
+0% {background-position: 0% 30%;}
+}
+
+
+.container{
+	width:1179px;
+	height:auto;
+	color:white;
+	}
+.leftcontainer1{
+	color:white;
+	width:28%;
+	height:200px;
+	
+	float:left;
+	font-size:18px;
+	margin-left:500px;
+	border :2px solid black;
+	}
+	
+	.leftcontainer1 .buytickets {
+	color:#FF0000;
+	font-size:20px;
+	 line-height: 0.6;
+		  
+	  
+}
+
+.container .rightcontainer{
+	width:100%;
+	float:left;
+	margin-left:120px;
+	margin-top:20px;
+	
+		}
+.description{
+	width:80%;
+	margin:0 auto;
+	font-size:22px;
+	color:000;
+}		
+.app{
+	width:70%;
+	margin:0px auto;
+}
+.app .android{
+	width:35%;
+	margin-top:100px;
+	float:right;
+}
+.app .iphone{
+	width:35%;
+	margin-top:100px;
+	float:right;
+	
+}
+
+@media screen and (max-width:1280PX)
+{
+	.responsive IMG(width:100%;
+	height:800px;}
+.container{
+	width:100%;
+	height:auto;
+	align-content: center;
+	}
+	
+.leftcontainer{
+	width:30%;
+	float:left;
+    margin-left:100px;
+	margin-right: 50px;
+		 	
+	}
+.container .rightcontainer{
+	width:40%;
+	float:left;
+	margin-top:100px;
+		}
+.app{
+	width:100%;
+	margin:0px auto;
+}
+.app .android{
+	width:44%;
+	float:left;
+	margin-right:30px;
+}
+.app .iphone{
+	width:44%;
+	float:left;
+}
+
+}
+@media screen and (max-width:980PX) {
+	.responsive IMG(width:100%;}
+	
+	
+	.container{
+	width:100%;
+	height:auto;
+	margin:0px auto;
+	}
+	
+.leftcontainer{
+	width:30%;
+	float:left;
+    margin:0px auto;
+
+	 
+		
+	}
+.container .rightcontainer{
+	width:69%;
+	float:left;
+	 margin:0px auto;
+		}
+.description{
+	width:100%;
+	height:auto;
+	}
+.app{
+	width:70%;
+	margin:0px auto;
+}
+.app .android{
+	width:44%;
+	float:left;
+}navbar-brand
+.app .iphone{
+	width:44%;
+	float:left;
+}
+
+}
+@media screen and (max-width:640PX) {
+	.responsive IMG(width:100%;}
+		
+	.container{
+	width:100%;
+	height:auto;
+	margin:0px auto;
+	}
+	
+.container .leftcontainer{
+	width:70%;
+	float:left;
+    margin:0px auto;
+
+	 
+		
+	}
+.container .rightcontainer{
+	width:70%;
+	float:left;
+	 margin:0px auto;
+		}
+.description{
+	width:100%;
+	height:auto;
+	}
+	.app{
+	width:70%;
+	margin:0px auto;
+}
+.app .android{
+	width:44%;
+	float:left;
+}
+.app .iphone{
+	width:44%;
+	float:left;
+}
+
+
+}
+@media screen and (max-width:480PX) {
+	.responsive IMG(width:100%;}
+		
+	.container{
+	width:100%;
+	height:auto;
+	margin:0px auto;
+	}
+	
+.container .leftcontainer{
+	width:100%;
+	float:left;
+    margin:0px auto;
+
+	 
+		
+	}
+.container .rightcontainer{
+	width:100%;
+	float:left;
+	 margin:0px auto;
+		}
+.description{
+	width:100%;
+	height:auto;
+	}
+	.app{
+	width:70%;
+	margin:0px auto;
+}
+.app .android{
+	width:44%;
+	float:left;
+}
+.app .iphone{
+	width:44%;
+	float:left;
+}
+
+
+@media screen and (max-width:320PX) {
+		
+	.container{
+	width:100%;
+	height:auto;
+	margin:0px auto;
+	}
+	
+.container .leftcontainer{
+	width:100%;
+	float:left;
+    margin:0px auto;
+
+		
+	}
+.container .rightcontainer{
+	width:100%;
+	float:left;
+	 margin:0px auto;
+		}
+.description{
+	width:100%;
+	height:auto;
+}
+.app{
+	width:70%;
+	margin:0px auto;
+}
+.app .android{
+	width:44%;
+	float:left;
+}
+.app .iphone{
+	width:44%;
+	float:left;
+}
+
+}
+
+	
+	
+
+
+		
