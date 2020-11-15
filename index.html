@@ -10,75 +10,7 @@
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<!-- SQL Database  -->
 
-<script type="text/javascript">
-	var db=openDatabase("itemDB","1.0","iteamDB",65535);
-$(function(){
-
-db.transaction(function(transaction){
-	var sql="CREATE TABLE iteams" +
-	"(id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,"+"iteam VARCHAR(100) NOT NULL,"
-	+"quantity INT(5) NOT NULL)";
-	transaction.executeSql(sql,undefined,
-		function(){
-			alert("Data is created successfully");
-		},function(){
-			alert("Table is already being created");
-
-
-	})
-});
-});
-// to remove
-$("#remove").click(function){
-
-if(!confirm("Are you sure to delete this table?"),"")) return;;
-db.transaction(function(transaction)
-	{var sql="DELETE TABLE items";
-		transaction.executeSql(sql,undefined,
-			function(){
-				alert("Table is deleted successfully")
-
-			}, function(){
-					alert("Error occured while deleting this table");
-				})
-
-	})
-})
-
-
-$('#list').click(function(){
-	$('#itemlist').children().remove();
-	db.transaction(function(transaction)
-	{
-		var sql="SELECT * FROM items ORDER BY id DESC";
-		transaction.executeSql(sql,undefined,function(transaction,result))
-{if (result.rows.length){
-
-
-for(var i=0;i<result.rows.length;i++)
-{
-var row=result.rows.item(i);
-var item=row.item;
-var id=row.id;
-var quantity=row.quantity;
-$("#itemlist").append('<tr><td>' +id+ '</td><td>' +item+'</td><td>' +quantity+'</td></tr>');
-
-}
-	}else{
-		$("#itemlist").append('<tr><td> colspan="3")align="center">No Item Found</td></tr>');
-	}
-}
-}
-
-}
-
-})
-
-
-</script>
-<!-- SQL Database End -->
 			<script src="jquery-3.5.1.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -116,7 +48,6 @@ $("#itemlist").append('<tr><td>' +id+ '</td><td>' +item+'</td><td>' +quantity+'<
 						</div>
 					<a href="#" class="nav-link">Blog</a>
 					<a href="https://www.jetzyapp.com/downloadapp.html" class="nav-link" style="color:#EDA247;">Jetzyapp.com</a>
-					
 				</div>
 		</nav>
 	</header>
@@ -125,12 +56,9 @@ $("#itemlist").append('<tr><td>' +id+ '</td><td>' +item+'</td><td>' +quantity+'<
 			<h1 id="title">Welcome to Jetzy Life</h1>
 			<h2 id="button">View Past Events</h2>
 		</div>
-		
 	</body>
-	
-	
 
-	<footer class="footer">
+	<footer id="footer">
 		<div class="container">
 				<div id="social-icons" >
 					<div class="container fade-in">
