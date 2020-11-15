@@ -171,11 +171,48 @@ footer {
 }
 
 @media (max-width: 600px) {
-  #social-icons {
-	height: 5px;
+	
+	
+
+	
+	#social-icons {
+	height: 15px;
 	
 }
+	
+	
+	
+	
+	
+	title{
+		width: 50%;
+        padding: 3px;
+        text-align: left;
+        border-bottom-left-radius: 10px;
+        float: left;
+	}
 }
+
+@media (max-width: 685x){
+	
+	#nav-link {
+	height: 15px;
+		padding-bottom: 30px;
+	
+	
+}
+	
+	title{
+		
+       
+	}
+	
+	
+	
+}
+
+
+
 
 .icon {
 	padding: 20px;
