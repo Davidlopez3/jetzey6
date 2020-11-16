@@ -2,15 +2,17 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	font-size: 22px;
-	line-height: 27px;
+	line-height: 80%;
 	background-image: url("yoga.jpg");
 	background-size: cover;
 	background-position: center;
 	border-collapse: separate;
   border-spacing: 15px;
+	  margin: 0;
 }
 a {
 	text-decoration: none;
+	font-size: 15px;
 }
 
 ul {
@@ -38,9 +40,12 @@ img{
 	margin-top: 0;
 }
 
+
+
 #right-align {
 	float: right;
-	margin-right: 20px;
+	margin-right: 10px;
+	 display: block;
 }
 
 .wrap {
@@ -60,6 +65,11 @@ img{
     min-height:100%;
 }
 #title {
+	font-weight: 700;
+	color: white;
+}
+
+#title2 {
 	font-weight: 700;
 	color: white;
 }
@@ -153,6 +163,8 @@ footer{
 }
 
 
+
+
 footer {
 	position: absolute;
 	bottom: 0px;
@@ -172,23 +184,43 @@ footer {
 
 @media (max-width: 1400px) {
 	#social-icons {
+
 	height: 15px;
 	
 }
-	
+	h1.a {
+  visibility: visible;
+}
 
+h4.b {
+  visibility: hidden;
+}	
+
+}
 
 @media (max-width: 600px) {
 	
-	
+	a{
+		font-size: 12px;
+		
+	}
 
 	
 	#social-icons {
 	height: 18px;
 	
 }
+	nav-link{
+		font-size:12 ;
+	}
 	
-	
+		h1.a {
+  visibility: hidden ;
+}
+
+h4.b {
+  visibility: visible;
+}
 	
 	
 	
@@ -215,7 +247,7 @@ footer {
 	
 }
 	
-	
+
 	
 }
 
