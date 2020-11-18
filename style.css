@@ -44,7 +44,7 @@ img{
 
 #right-align {
 	float: right;
-	margin-right: 10px;
+	
 	 display: block;
 }
 
@@ -156,10 +156,7 @@ footer{
 
 
 #social-icons {
-	display: flex;
-	
-
-	
+	display: flex;	
 }
 
 
@@ -222,7 +219,23 @@ h4.b {
   visibility: visible;
 }
 	
-	
+	div.scrollmenu {
+  background: transparent;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  
+}
 	
 	title{
 		width: 50%;
@@ -251,7 +264,11 @@ h4.b {
 	
 }
 
-
+#right-align2{
+	
+	
+	
+}
 
 
 .icon {
@@ -338,4 +355,18 @@ navbar {
 	display: block;}
 
 @media (min-width: 601px){
+	#right-align2 {
+		visibility:visible;
+	}
 }
+
+
+@media (max-width: 536px){
+	
+	#right-align {
+		visibility: hidden;
+	}
+	
+}
+
+
