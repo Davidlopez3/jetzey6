@@ -198,7 +198,7 @@ h4.b {
 @media (max-width: 600px) {
 	
 	a{
-		font-size: 30px;
+		font-size: 12px;
 		
 	}
 
@@ -229,7 +229,7 @@ div.scrollmenu a {
   display: inline-block;
   color: white;
   text-align: center;
-  padding: 30px;
+  padding: 20px;
   text-decoration: none;
 }
 
