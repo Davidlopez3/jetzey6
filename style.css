@@ -220,7 +220,7 @@ h4.b {
 }
 	
 	div.scrollmenu {
-  background: transparent;
+   background-color:transparent;
   overflow: auto;
   white-space: nowrap;
 }
@@ -229,7 +229,7 @@ div.scrollmenu a {
   display: inline-block;
   color: white;
   text-align: center;
-  padding: 14px;
+  padding: 20px;
   text-decoration: none;
 }
 
@@ -363,9 +363,7 @@ navbar {
 
 @media (max-width: 536px){
 	
-	#right-align {
-		visibility: hidden;
-	}
+	
 	
 }
 
