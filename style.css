@@ -79,16 +79,14 @@ img{
 	color: white;
 }
 #button {
-	
+	display: inline-block;
 	background: #EDA247;
-	font-weight: 300;
 	font-size: 28px;
-	width: 280px;
 	text-align: center;
-	padding: 15px;
+	padding: 15px 32px;
 	border-radius:20px;
 	color: white;
-	
+  cursor: pointer;
 }
 
 /* Social Media Icons */
