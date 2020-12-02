@@ -84,11 +84,12 @@ img{
 	border: none;
 	background: #EDA247;
 	text-align: center;
-	 padding: 14px 28px;
+	 padding: 17px 30px;
 	font-size: 30px;
   	cursor: pointer;
 	border-radius:20px;
 	color: white;
+	
 }
 
 /* Social Media Icons */
