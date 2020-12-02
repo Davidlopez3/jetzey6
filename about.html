@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet"> 
+<style type="text/css">
+.styled-table {
+    border-collapse: collapse;
+    
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: #eda247;
+    color: 	 #ffffff;
+
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+
+.styled-table tbody th.active-row {
+    font-weight: bold;
+    color: 	 #eda247;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 80%;
+	background-image: url("yoga.jpg");
+	background-size: cover;
+	background-position: center;
+	border-collapse: separate;
+  border-spacing: 15px;
+	  margin: 0;
+	  display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+h1{
+font-family: 'Sansita Swashed', cursive;
+color: 	  #eda247
+}
+
+div.container4 {
+    height: 10em;
+    position: relative }
+div.container4 p {
+        border-radius: 1em;
+        padding: 1em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+        color:#eda247;
+         }
+
+</style>
+<body>
+
+<table class="styled-table">
+
+	<h1>Events</h1>
+	<div class=container4>
+    <thead>
+        <tr>
+            <th>Events</th>
+            <th>Hours</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Meting</td>
+            <td>6:00pm</td>
+        </tr>
+        <tr class="active-row">
+            <td>Breakfast</td>
+            <td>5:50 am</td>
+        </tr>
+        <!-- and so on... -->
+    </tbody>
+</table>
+
+</div>
+
+</body>
+</html>
