@@ -12,7 +12,7 @@ body {
 	
 }
 h6{
-	color: black;
+	color: whitesmoke;
 }
 
 a {
@@ -79,16 +79,14 @@ img{
 	color: white;
 }
 #button {
-	margin:transparent ;
-	border: transparent;
-	content: transparent;
+	
 	background: #EDA247;
 	font-weight: 300;
 	font-size: 28px;
 	width: 280px;
 	text-align: center;
 	padding: 15px;
-	border-radius: 20px;
+	border-radius:20px;
 	color: white;
 	
 }
@@ -149,7 +147,7 @@ footer{
 
 
 .nav-link {
-	color: black;
+	color: whitesmoke;
 	text-decoration: none;
 	font-size: 20px;
 	font-weight: 600;
@@ -220,10 +218,12 @@ h4.b {
 	
 		h1.a {
   visibility: hidden ;
+			color:whitesmoke;
 }
 
 h4.b {
   visibility: visible;
+	color:white;
 }
 	
 	div.scrollmenu {
@@ -234,7 +234,7 @@ h4.b {
 
 div.scrollmenu a {
   display: inline-block;
-  color:black;
+  color:white;
   text-align: center;
   padding: 20px;
   text-decoration: none;
@@ -346,7 +346,7 @@ navbar {
 
 .dropdown-content a {
   float: none;
-  color: black;
+  color: white;
   padding: 8px 10px;
   text-decoration: none;
   display: block;
