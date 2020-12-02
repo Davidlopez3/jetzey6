@@ -81,12 +81,11 @@ img{
 #button {
 	display: inline-block;
 	background: #EDA247;
-	font-size: 28px;
+	font-size: 40px;
 	text-align: center;
 	padding: 15px 32px;
 	border-radius:20px;
 	color: white;
-  cursor: pointer;
 }
 
 /* Social Media Icons */
