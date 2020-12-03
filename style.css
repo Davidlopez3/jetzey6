@@ -3,7 +3,7 @@ body {
 	font-weight: 200;
 	font-size: 22px;
 	line-height: 80%;
-	background-image: url("back 3.jpg");
+	background-image: url("back.jpg");
 	background-size: cover;
 	background-position: center;
 	border-collapse: separate;
@@ -41,16 +41,19 @@ img{
 	height: 100px;
 	width: 100px;
 	border-radius: 60%;
-	padding: 15px;
-	margin-top: 0;
+	padding: 35px;
+
+	top: 80px;
+  right: 0;
+	margin-top: 14;
 }
 
 
 
 #right-align {
 	float: right;
-	
 	 display: block;
+	margin-top:70px;
 }
 
 .wrap {
@@ -237,8 +240,9 @@ div.scrollmenu a {
   display: inline-block;
   color:white;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   text-decoration: none;
+	margin: 20px;
 }
 
 div.scrollmenu a:hover {
@@ -272,9 +276,9 @@ div.scrollmenu a:hover {
 	
 }
 
-#right-align2{
+.right-align{
 	
-	
+	margin-top:50px;
 	
 }
 
