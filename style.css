@@ -9,7 +9,7 @@ body {
 	border-collapse: separate;
   border-spacing: 15px;
 	  margin: 0;
-	
+	background-repeat:no-repeat;
 }
 h6{
 	color: whitesmoke;
